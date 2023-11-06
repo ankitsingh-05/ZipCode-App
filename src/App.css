@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heading{
+  font-size: 2.4rem;
+  margin-top: -4rem;
+}
+
+ul{
+  border: 2px solid rgb(231, 83, 83);
+  padding: 2.5rem;
+  box-shadow: 4px 4px 8px rebeccapurple;
+  border-radius: 10px;
+
+}
+
+.card-cont ul li{
+  list-style: none;
+  font-size: 1.08rem;
+}

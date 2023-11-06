@@ -1,0 +1,18 @@
+.loading{
+    border-left: 3px solid green;
+    border-top: 3px solid yellow;
+    border-right: 3px solid blue;
+    width: 2rem;
+    height: 2rem;
+    animation: myLoading 500ms infinite;
+    border-radius: 50%;
+}
+
+@keyframes myLoading {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
